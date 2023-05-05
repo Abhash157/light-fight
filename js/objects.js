@@ -3,7 +3,7 @@ const background = new Sprite({
         x: 0,
         y: 0
     },
-    imageSrc: 'img/environment.png',
+    imageSrc: './img/environment.png',
     scale: 2.1
 })
 const player = new fighter({
@@ -15,7 +15,7 @@ const player = new fighter({
         x: 0,
         y: 0
     },
-    imageSrc: 'img/Player1/idle.png',
+    imageSrc: './img/Player1/idle.png',
     scale: 2.5,
     totalFrames: 8,
     offset: {
@@ -27,35 +27,35 @@ const player = new fighter({
     },
     sprites: {
         idle: {
-            imageSrc: 'img/Player1/idle.png',
+            imageSrc: './img/Player1/idle.png',
             totalFrames: 8
         },
         run: {
-            imageSrc: 'img/Player1/run.png',
+            imageSrc: './img/Player1/run.png',
             totalFrames: 8
         },
         jump: {
-            imageSrc: 'img/Player1/jump.png',
+            imageSrc: './img/Player1/jump.png',
             totalFrames: 2
         },
         fall: {
-            imageSrc: 'img/Player1/fall.png',
+            imageSrc: './img/Player1/fall.png',
             totalFrames: 2
         },
         attack1: {
-            imageSrc: 'img/Player1/attack1.png',
+            imageSrc: './img/Player1/attack1.png',
             totalFrames: 6
         },
         shurikenatk: {
-            imageSrc: 'img/Player1/attack2.png',
+            imageSrc: './img/Player1/attack2.png',
             totalFrames: 6
         },
         takeHit: {
-            imageSrc: 'img/Player1/takeHit.png',
+            imageSrc: './img/Player1/takeHit.png',
             totalFrames: 4
         }, 
         death: {
-            imageSrc: 'img/Player1/death.png',
+            imageSrc: './img/Player1/death.png',
             totalFrames: 6
         }
     },
@@ -86,7 +86,7 @@ const enemy = new fighter({
         x: 0,
         y: 0
     },
-    imageSrc: 'img/player2/idle.png',
+    imageSrc: './img/player2/idle.png',
     scale: 2.2,
     totalFrames: 4,
     offset: {
@@ -98,35 +98,35 @@ const enemy = new fighter({
     },
     sprites: {
         idle: {
-            imageSrc: 'img/Player2/idle.png',
+            imageSrc: './img/Player2/idle.png',
             totalFrames: 4
         },
         run: {
-            imageSrc: 'img/Player2/run.png',
+            imageSrc: './img/Player2/run.png',
             totalFrames: 8
         },
         jump: {
-            imageSrc: 'img/Player2/jump.png',
+            imageSrc: './img/Player2/jump.png',
             totalFrames: 2
         },
         fall: {
-            imageSrc: 'img/Player2/fall.png',
+            imageSrc: './img/Player2/fall.png',
             totalFrames: 2
         },
         attack1: {
-            imageSrc: 'img/Player2/attack1.png',
+            imageSrc: './img/Player2/attack1.png',
             totalFrames: 4
         },
         shurikenatk: {
-            imageSrc: 'img/Player2/attack2.png',
+            imageSrc: './img/Player2/attack2.png',
             totalFrames: 4
         },
         takeHit: {
-            imageSrc: 'img/Player2/takeHit.png',
+            imageSrc: './img/Player2/takeHit.png',
             totalFrames: 3
         },
         death: {
-            imageSrc: 'img/Player2/death.png',
+            imageSrc: './img/Player2/death.png',
             totalFrames: 7
         }
     },
