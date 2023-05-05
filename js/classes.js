@@ -178,7 +178,7 @@ class fighter extends Sprite {
         if (this.throwingShuriken) {
             if (this.shurikenL) this.shurikenBox.position.x -= 25
             else this.shurikenBox.position.x += 25
-            this.shuriken.imageSrc = 'img/bg.jpeg'
+            this.shuriken.imageSrc = './img/bg.jpeg'
         }
         if (this.shurikenBox.position.x > cnv.width ||
             this.shurikenBox.position.x + this.shurikenBox.width < 0
